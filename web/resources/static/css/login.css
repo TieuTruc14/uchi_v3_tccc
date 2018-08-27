@@ -1,0 +1,253 @@
+﻿html
+{
+    height: 100%;
+}
+body
+{
+    font-family: "UTM-Neo-Sans-Intel";
+    margin: 0;
+    padding:0;
+    color: white;
+    background-image: url('../image/login/login-uchi.png');
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+}
+#content
+{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    overflow: hidden;
+}
+
+#logo img{ margin-left:-55px;}
+#logo span#text_logo
+{
+    margin-left:7px;
+    font-size:25px;
+    line-height:26px;
+    color:#ffffff;
+}
+
+#focus
+{
+    margin: 50px auto 165px auto;
+}
+#focus ul
+{
+    clear: both;
+    font-size: 11px;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 57px;
+}
+#focus ul li
+{
+    float: left;
+    list-style: none outside none;
+    padding-top: 18px;
+}
+#uchi-info{
+    border-right: 1px solid white;
+}
+table#forminput
+{
+    margin: 92px auto;
+    padding: 0px;
+}
+table#forminput tr
+{
+    padding: 2px 0px;
+}
+table#forminput tr td
+{
+    color: #0d602a;
+    font-size: 14px;
+    padding: 5px 4px;
+}
+table#forminput tr.title td{ padding-bottom:13px;}
+table#forminput tr.title td span.title
+{
+    font-size: 25px;
+    font-family: Tahoma;
+    line-height: 32px;
+}
+table#forminput tr td input[type="text"], input[type="password"]
+{
+    background: #ffffff;
+    width: 210px;
+    height: 27px;
+    padding: 0 2px;
+    border: solid 1px #b7b7b7;
+    border-radius: 4px;
+}
+
+:-moz-placeholder
+{
+    color: #c9c9c9 !important;
+    font-size: 13px;
+}
+::-webkit-input-placeholder
+{
+    color: #ccc;
+    font-size: 13px;
+}
+div.floatleft
+{
+    float: left;
+}
+div.floatright
+{
+    float: right;
+}
+.error
+{
+    font-size: 13px;
+    color: Red;
+}
+.clear
+{
+    clear: both;
+}
+#cbxRememberPassword {
+		margin: 3px 3px 3px 0px;
+	}
+#img-uchi-logo{
+    width: 54%;
+}
+div#uchi-logo {
+    text-align: center;
+}
+#uchi-slogan{
+    color: white;
+    text-align: center;
+    font-size: 26.5px;
+    margin-top: 2px;
+}
+#uchi-info{
+    padding-top: 42px !important;
+    padding-bottom: 48px;
+    padding-right: 22px;
+}
+#img-logo{
+    width:  71%;
+    float: right;
+}
+.right{
+    float: right !important;
+}
+#about-us{
+    text-align: right;
+    font-size: 10.5px;
+    /*line-height: 6px;*/
+    margin-top: 6px;
+}
+#login-system{
+    font-size: 13.5px;
+}
+@media (min-width: 992px) {
+    .col-md-5 {
+        width: 44%;
+    }
+}
+#login-form{
+    margin-left: 22px;
+}
+#login-form input {
+    width: 79%;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 0px;
+    color: black;
+    padding-left: 6px;
+}
+.image-password{
+    float: left;
+    width: 30px !important;
+    height: 30px;
+    background-color: white;
+    /* padding-top: 5px; */
+    margin-top: 5px;
+    background-image: url('../image/login/uchi-password.png') !important;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+.image-user{
+    float: left;
+    width: 30px !important;
+    height: 30px;
+    background-color: white;
+    /* padding-top: 5px; */
+    margin-top: 5px;
+    background-image: url('../image/login/uchi-username.png') !important;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+/*#login-form #username{
+    background-image: url('../image/login/uchi-username.png') !important;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+#login-form #password{
+    background-image: url('../image/login/uchi-password.png') !important;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}*/
+#login-consol{
+    margin-top: 14px;
+}
+#login {
+    border-radius: 0px;
+    background-color: #2ca9e0;
+    border: 1px solid white;
+    color: white;
+    width: 34%;
+    padding: 5px 2px;
+}
+#forget-pass{
+    padding-top: 6px;
+    text-align: right;
+}
+#forget-img{
+    margin-right: 3px;
+}
+
+#forget-pass a{
+    color: white;
+}
+#footer-info{
+    bottom: 5px;
+    font-size: 10px;
+    position: fixed;
+    width: 100%;
+}
+#footer-info img{
+    width: 53px;
+    padding-bottom: 6px;
+    margin-left: 3px;
+}
+
+#company{
+    text-align: right;
+    float: right;
+}
+.truong-login-form{
+    width: 850px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.truong-user-fixwidth{
+    width: 250px !important;
+
+}
+.truong-padding-300px{
+    padding-left: 130px !important;
+}
+.truong-logo-stp{
+    margin-left: 8% !important;
+    display: flex;
+    /* vertical-align: middle; */
+    align-items: center;
+    margin-top: 50px !important;
+}
